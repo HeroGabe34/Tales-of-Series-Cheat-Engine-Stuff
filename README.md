@@ -15,6 +15,7 @@ Able to individually edit each party members artes and save it via shortcuts.
 
 Pressing \ activates a ton of modified stuff thats different from the base game, its just stuff I changed to make the game feel a bit different and I guess easier? 
 **Modified items**
+
 Few Arte edits, as in I replaced some artes with different ones for most party members (Ex:Leon knows Holy lance and Recover, replaced Focus and Pow Hammer.)
 
 All Artes cost 1 CC
