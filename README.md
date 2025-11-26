@@ -5,6 +5,8 @@ Thank you Sora3100 for having your Cheat tables as the basics for me understandi
 
 **Tales of Destiny DC**
 
+Use this on the PCSX2 emulator, idk about any other platform or hardware.
+
 Based off of what Sora3100's table already had, plus a bit extra!
 
 Can add/remove every type of item from inventory (Except key items and some useless treasure items I didn't add)
