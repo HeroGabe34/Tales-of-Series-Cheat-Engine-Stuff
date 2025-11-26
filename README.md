@@ -11,4 +11,4 @@ Able to change party members strategies than what they are locked to. (Ex:Leon c
 
 Able to individually edit each party members artes and save it via shortcuts.
 
-Pressing \ activates a ton of modified stuff thats different from the base game, its just stuff I changed to make the game feel a bit different and I guess easier? (Few Arte edits, all Artes cost 1 CC, very fast spell casting, weapon edits)
+Pressing \ activates a ton of modified stuff thats different from the base game, its just stuff I changed to make the game feel a bit different and I guess easier? (Few Arte edits, all Artes cost 1 CC, very fast spell casting, weapon edits, Swordian devices at 999 points)
