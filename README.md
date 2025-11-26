@@ -1,4 +1,4 @@
-Thank you Sora3100 for having your Cheat tables as the basics for me understanding how to use the Cheat Engine for finding stuff in these Tales of games!
+Thank you Sora3100 for creating your Cheat tables as they were the basics for me to understanding how to use the Cheat Engine for finding stuff in these Tales of games!
 
 
 
