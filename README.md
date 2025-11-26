@@ -3,7 +3,7 @@ Thank you Sora3100 for having your Cheat tables as the basics for me understandi
 
 
 
-Tales of Destiny DC
+**Tales of Destiny DC**
 
 Based off of what Sora3100's table already had, plus a bit extra!
 
