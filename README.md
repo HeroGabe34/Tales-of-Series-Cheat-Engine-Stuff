@@ -30,3 +30,8 @@ Most artes have different elements/attack attributes added/removed (Ex: Lilith's
 Weapon edits
 
 Swordian devices at 999 points
+
+
+
+
+**Up Next is Tales of the Abyss!**
