@@ -1,7 +1,7 @@
 Thank you Sora3100 for creating your Cheat tables as they were the basics for me to understanding how to use the Cheat Engine for finding stuff in these Tales of games!
 
 
-
+To get the cheat tables, just click on the table you want then look where it says raw and click on the down arrow symbol to the right of it to download.
 
 **Tales of Destiny DC**
 
