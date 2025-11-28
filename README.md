@@ -1,7 +1,7 @@
 Thank you Sora3100 for creating your Cheat tables as they were the basis for me to understanding how to use the Cheat Engine for finding stuff in these Tales of games!
 
 
-Here is a link to his cheat tables:https://github.com/Sora3100/Tales_of_Cheat_Tables
+Here is a link to their cheat tables for other Tales of games:https://github.com/Sora3100/Tales_of_Cheat_Tables
 
 
 To get the cheat tables, just click on the table you want then look where it says raw and click on the down arrow symbol to the right of it to download.
