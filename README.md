@@ -61,7 +61,7 @@ Change the amount of gald you can have
 
 Override strategies of party members, (EX: strike artes tactic on members who don't usually have it.)
 
-Add or remove items most items from inventory (key items, materials, and food items I didn't bother adding)
+Add or remove most items from inventory (key items, materials, and food items I didn't bother adding)
 
 Can equip the same C. Core to multiple party members via equipment editor
 
