@@ -8,6 +8,8 @@ To get the cheat tables, just click on the table you want then look where it say
 
 **Tales of Destiny DC**
 
+
+
 Use this on the PCSX2 emulator, idk about any other platform or hardware.
 
 Based off of what Sora3100's table already had, plus a bit extra!
@@ -36,5 +38,40 @@ Swordian devices at 999 points
 
 
 
+**Tales of the Abyss**
 
-**Up Next is Tales of the Abyss!**
+
+
+Use this on the PCSX2 emulator, idk about any other platform or hardware.
+
+Based off of what Sora3100's table already had, plus a bit extra!
+
+Change the amount of gald you can have
+
+Override strategies of party members, (EX: strike artes tactic on members who don't usually have it.)
+
+Add or remove items most items from inventory (key items, materials, and food items I didn't bother adding)
+
+Can equip the same C. Core to multiple party members via equipment editor
+
+Change the difficulty value without actually having to earn Very hard/Unknown difficulty. (I don't know why you would want to do Unknown on your very first run through?)
+
+Edit grade and grade shop options (only available after you beat the game at least once and can only access it in the grade shop menu)
+
+Pressing \ modifies the game, making it different from a vanilla play through. 
+
+**Modified Items**
+
+All artes cost 1 TP
+
+Luke/Guy/Natalia/Anise got modified artes. Replaced artes that didn't have a FOF arte with Spell Artes. Luke/Asch/Guy got a bunch of Spell Artes added in their arte list. Anise I added 3 more Spell artes for her, and Natalia I gave 2 more Spell Artes. (Wasn't able to add healing artes to anyone so Tear and Natalia are still the only healers in the game)
+
+Most artes have different elemental attributes than what they had orignally. (EX: Demon fist is now a dark elemental arte)
+
+Artes you would have earned via side quests are now part of the main level up pool, (EX: Luke/Asch can learn demon fist at level 3.) You can still learn them via side quests.
+
+Luke/Guy/Natalia can now learn AD Skills relating to offensive Spell Artes.
+
+
+
+**Up next:TBD**
