@@ -6,7 +6,14 @@ Here is a link to their cheat tables for other Tales of games:https://github.com
 
 To get the cheat tables, just click on the table you want then look where it says raw and click on the down arrow symbol to the right of it to download.
 
+
+
+
+
+
 **Tales of Destiny DC**
+
+
 
 
 
@@ -38,7 +45,11 @@ Swordian devices at 999 points
 
 
 
+
+
 **Tales of the Abyss**
+
+
 
 
 
