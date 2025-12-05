@@ -41,7 +41,7 @@ unregistersymbol(baseElfAddr)
       <CheatEntries>
         <CheatEntry>
           <ID>136373</ID>
-          <Description>"Pressing \ activates modified stuff (like giving spell artes to Luke/Guy and changing some artes for the others)"</Description>
+          <Description>"Keep pressing \ to activate modified stuff (like giving spell artes to Luke/Guy and changing some artes for the others)"</Description>
           <Color>FFFF00</Color>
           <GroupHeader>1</GroupHeader>
         </CheatEntry>
@@ -81,8 +81,9 @@ unregistersymbol(baseElfAddr)
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
             <CheatEntry>
-              <ID>93101</ID>
+              <ID>136578</ID>
               <Description>"Character on Screen"</Description>
+              <DropDownListLink>Party Formation</DropDownListLink>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Byte</VariableType>
               <Address>-1</Address>
@@ -8435,7 +8436,7 @@ unregistersymbol(baseElfAddr)
           <CheatEntries>
             <CheatEntry>
               <ID>136375</ID>
-              <Description>"Playing on Unknown for the first time, give yourself a stronger weapon for the first battle, otherwise it'll be a 10min long fight"</Description>
+              <Description>"Playing on Unknown for the first time, give yourself a stronger weapon for the first few battles or so, otherwise it'll be a 10min long fights"</Description>
               <Color>0000FF</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
@@ -8771,6 +8772,279 @@ unregistersymbol(baseElfAddr)
                   <VariableType>Byte</VariableType>
                   <Address>+0</Address>
                 </CheatEntry>
+                <CheatEntry>
+                  <ID>136378</ID>
+                  <Description>"Chicken"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136379</ID>
+                  <Description>"Pork"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136380</ID>
+                  <Description>"Sketchy Beef"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136381</ID>
+                  <Description>"Sketchy Chicken"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136382</ID>
+                  <Description>"Rappig Meat"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+5</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136383</ID>
+                  <Description>"Tuna"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136384</ID>
+                  <Description>"Snapper"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+7</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136385</ID>
+                  <Description>"Cod"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136386</ID>
+                  <Description>"Salmon"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136387</ID>
+                  <Description>"Octopus"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+a</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136388</ID>
+                  <Description>"Squid"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+b</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136389</ID>
+                  <Description>"Shrimp"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+c</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136390</ID>
+                  <Description>"Fishy Fish"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+d</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136391</ID>
+                  <Description>"Lettuce"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+e</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136392</ID>
+                  <Description>"Cucumber"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+f</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136393</ID>
+                  <Description>"Carrot"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+10</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136394</ID>
+                  <Description>"Onion"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+11</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136395</ID>
+                  <Description>"Radish"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+12</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136396</ID>
+                  <Description>"Mushroom"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+13</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136397</ID>
+                  <Description>"Tomato"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+14</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136398</ID>
+                  <Description>"Potato"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+15</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136399</ID>
+                  <Description>"Kirima"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+16</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136400</ID>
+                  <Description>"Amango"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+17</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136401</ID>
+                  <Description>"Apple"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+18</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136402</ID>
+                  <Description>"Lemon"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+19</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136403</ID>
+                  <Description>"Strawberry"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136404</ID>
+                  <Description>"Banana"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136405</ID>
+                  <Description>"Engeve Rice"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136406</ID>
+                  <Description>"Engeve Bread"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1D</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136407</ID>
+                  <Description>"Engeve Noodles"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136408</ID>
+                  <Description>"Rice"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1F</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136409</ID>
+                  <Description>"Bread"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+20</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136410</ID>
+                  <Description>"Noodles"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+21</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136411</ID>
+                  <Description>"Egg"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+22</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136412</ID>
+                  <Description>"Milk"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+23</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136413</ID>
+                  <Description>"Tofu"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+24</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136414</ID>
+                  <Description>"Kombu"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+25</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136415</ID>
+                  <Description>"Cheese"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+26</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136416</ID>
+                  <Description>"Miso"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+27</Address>
+                </CheatEntry>
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
@@ -8788,6 +9062,202 @@ unregistersymbol(baseElfAddr)
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Byte</VariableType>
                   <Address>+0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136417</ID>
+                  <Description>"Nocer"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136418</ID>
+                  <Description>"Alca"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136419</ID>
+                  <Description>"Nocere"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136420</ID>
+                  <Description>"Scild"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136421</ID>
+                  <Description>"Esprit"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+5</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136422</ID>
+                  <Description>"Styl"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136423</ID>
+                  <Description>"Nobile"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+7</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136424</ID>
+                  <Description>"Stre Forte"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136425</ID>
+                  <Description>"Nocer Forte"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136426</ID>
+                  <Description>"Scild Forte"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136427</ID>
+                  <Description>"Esprit Forte"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136428</ID>
+                  <Description>"Balla Forte"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136429</ID>
+                  <Description>"Alca Forte"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+D</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136430</ID>
+                  <Description>"Stre Maggiore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136431</ID>
+                  <Description>"Nocer Maggiore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136432</ID>
+                  <Description>"Scild Maggiore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+10</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136433</ID>
+                  <Description>"Alca Maggiore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+11</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136434</ID>
+                  <Description>"Balla Maggiore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+12</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136435</ID>
+                  <Description>"Marcato"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+13</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136436</ID>
+                  <Description>"Strecido"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+14</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136437</ID>
+                  <Description>"Nocercido"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+15</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136438</ID>
+                  <Description>"Ballacido"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+16</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136439</ID>
+                  <Description>"Lebhaft"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+17</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136440</ID>
+                  <Description>"Scildecido"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+18</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136441</ID>
+                  <Description>"Parlanto"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+19</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136442</ID>
+                  <Description>"Largamente"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136443</ID>
+                  <Description>"Lunatito"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136444</ID>
+                  <Description>"Grandioz"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1C</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>92643</ID>
@@ -8834,6 +9304,465 @@ unregistersymbol(baseElfAddr)
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Byte</VariableType>
                   <Address>+3</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>136445</ID>
+              <Description>"Materials"</Description>
+              <Options moHideChildren="1"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>00FFFF</Color>
+              <GroupHeader>1</GroupHeader>
+              <Address>baseElfAddr+5D2C31</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>136446</ID>
+                  <Description>"Shell"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136447</ID>
+                  <Description>"Coral"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136448</ID>
+                  <Description>"Bearskin"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136449</ID>
+                  <Description>"Giant Shell"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136450</ID>
+                  <Description>"Charcoal"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136451</ID>
+                  <Description>"Gel Base"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+5</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136452</ID>
+                  <Description>"Phantom Fish"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136453</ID>
+                  <Description>"Meltwater"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+7</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136454</ID>
+                  <Description>"Holy Water"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136455</ID>
+                  <Description>"Giant Fish Bone"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136456</ID>
+                  <Description>"Ramie"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136457</ID>
+                  <Description>"Clothing Material"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136458</ID>
+                  <Description>"Silk Thread"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136459</ID>
+                  <Description>"Red Pigment"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+D</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136460</ID>
+                  <Description>"Yellow Pigment"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136461</ID>
+                  <Description>"Blue Pigment"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136462</ID>
+                  <Description>"Weeds"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+10</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136463</ID>
+                  <Description>"Cotton"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+11</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136464</ID>
+                  <Description>"Compost"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+12</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136465</ID>
+                  <Description>"Tataroo Grass"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+13</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136466</ID>
+                  <Description>"Glowing Moss"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+14</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136467</ID>
+                  <Description>"Roneal Mushroom"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+15</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136468</ID>
+                  <Description>"Chokmah Bark"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+16</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136469</ID>
+                  <Description>"Winter Tomato"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+17</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136470</ID>
+                  <Description>"Plant Worm"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+18</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136471</ID>
+                  <Description>"Chesedonian Cactus"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+19</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136472</ID>
+                  <Description>"Sacred Tree"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136473</ID>
+                  <Description>"Phantom Vegetable"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136474</ID>
+                  <Description>"Linkite Nut"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136475</ID>
+                  <Description>"Iron Sand"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1D</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136476</ID>
+                  <Description>"Gold Dust"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136477</ID>
+                  <Description>"Rock"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1F</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136478</ID>
+                  <Description>"Iron Ore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+20</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136479</ID>
+                  <Description>"Copper Ore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+21</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136480</ID>
+                  <Description>"Silver Ore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+22</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136481</ID>
+                  <Description>"Gold Ore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+23</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136482</ID>
+                  <Description>"Meggioran Fish"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+24</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136483</ID>
+                  <Description>"Scorpion Stinger"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+25</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136484</ID>
+                  <Description>"Insect Wing"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+26</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136485</ID>
+                  <Description>"Firewood Bug"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+27</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136486</ID>
+                  <Description>"Penguin Quill"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+28</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136487</ID>
+                  <Description>"Basilisk Scale"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+29</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136488</ID>
+                  <Description>"Dragon Fang"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136489</ID>
+                  <Description>"Pearl"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136490</ID>
+                  <Description>"Black Pearl"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136491</ID>
+                  <Description>"Meadow Crystal"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2D</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136492</ID>
+                  <Description>"Highland Ruby"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136493</ID>
+                  <Description>"Ice Diamond"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2F</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136494</ID>
+                  <Description>"Aqua Sapphire"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+30</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136495</ID>
+                  <Description>"Forest Emerald"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+31</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136496</ID>
+                  <Description>"Lizard Fossil"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+32</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136497</ID>
+                  <Description>"Fonstone Fragment"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+33</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136498</ID>
+                  <Description>"Meteorite Fragment"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+34</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136499</ID>
+                  <Description>"Naevimetal"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+35</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136500</ID>
+                  <Description>"Mana Fragment"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+36</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136501</ID>
+                  <Description>"Libavius Ore"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+37</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136502</ID>
+                  <Description>"Arm of Fire"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+38</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136503</ID>
+                  <Description>"Song of Water"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+39</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136504</ID>
+                  <Description>"Feather of Wind"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136505</ID>
+                  <Description>"Tail of Earth"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136506</ID>
+                  <Description>"Eye of Thunder"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136507</ID>
+                  <Description>"Tear of Ice"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3D</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136508</ID>
+                  <Description>"Wing of Light"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136509</ID>
+                  <Description>"Claw of Shadow"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3F</Address>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
@@ -9146,6 +10075,7 @@ unregistersymbol(baseElfAddr)
                       <ID>92692</ID>
                       <Description>"Key of Lorelei"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFF00</Color>
                       <VariableType>Byte</VariableType>
                       <Address>+29</Address>
                     </CheatEntry>
@@ -9153,6 +10083,7 @@ unregistersymbol(baseElfAddr)
                       <ID>92693</ID>
                       <Description>"Jewel of Gardios"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFF00</Color>
                       <VariableType>Byte</VariableType>
                       <Address>+2A</Address>
                     </CheatEntry>
@@ -9167,6 +10098,22 @@ unregistersymbol(baseElfAddr)
                   <GroupHeader>1</GroupHeader>
                   <Address>baseElfAddr+5D2C9E</Address>
                   <CheatEntries>
+                    <CheatEntry>
+                      <ID>136510</ID>
+                      <Description>"Wand"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFFFF</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>-2</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>136511</ID>
+                      <Description>"Rod"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFFFF</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>-1</Address>
+                    </CheatEntry>
                     <CheatEntry>
                       <ID>92696</ID>
                       <Description>"Mace"</Description>
@@ -11931,6 +12878,536 @@ unregistersymbol(baseElfAddr)
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
+            <CheatEntry>
+              <ID>136512</ID>
+              <Description>"Key Items"</Description>
+              <Options moHideChildren="1"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>00FFFF</Color>
+              <GroupHeader>1</GroupHeader>
+              <Address>baseElfAddr+5D2De7</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>136577</ID>
+                  <Description>"Having certain key items ahead of time may softlock your game, so be careful on what you get from here"</Description>
+                  <Color>0000FF</Color>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136513</ID>
+                  <Description>"World Map"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136514</ID>
+                  <Description>"Collector's Book"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136515</ID>
+                  <Description>"Character Disc"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136516</ID>
+                  <Description>"Sorcerer's Ring"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136517</ID>
+                  <Description>"Moon Selector"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+6</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136518</ID>
+                  <Description>"Technical Ring"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+7</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136519</ID>
+                  <Description>"Winged Boots"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+8</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136520</ID>
+                  <Description>"Magical Pouch"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+9</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136521</ID>
+                  <Description>"S Flag"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136522</ID>
+                  <Description>"All-Purpose Knife"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136523</ID>
+                  <Description>"Incomplete Key of Lorelei"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136524</ID>
+                  <Description>"Passport"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+D</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136525</ID>
+                  <Description>"Fonic Disc"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136526</ID>
+                  <Description>"Principles of Fonology"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+F</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136527</ID>
+                  <Description>"Permit"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+10</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136528</ID>
+                  <Description>"Launcher"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+11</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136529</ID>
+                  <Description>"Hover Drive"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+12</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136530</ID>
+                  <Description>"Genesis of the World"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+13</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136531</ID>
+                  <Description>"Dark Wings Badge"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+14</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136532</ID>
+                  <Description>"Frequency Counter"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+15</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136533</ID>
+                  <Description>"Flightstone"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+16</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136534</ID>
+                  <Description>"A Letter from Friends"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+17</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136535</ID>
+                  <Description>"Ion's Fonstone"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+18</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136536</ID>
+                  <Description>"Locket"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+19</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136537</ID>
+                  <Description>"Drive Chamber"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136538</ID>
+                  <Description>"Greater Flightstone"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136539</ID>
+                  <Description>"Refined Flightstone"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136540</ID>
+                  <Description>"Mors Draconis"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1D</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136541</ID>
+                  <Description>"Gourmet Apple"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136542</ID>
+                  <Description>"Rose's Charm"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+1F</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136543</ID>
+                  <Description>"Bronze Medal"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+20</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136544</ID>
+                  <Description>"Gold Medal"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+21</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136545</ID>
+                  <Description>"Bronze Trophy"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+22</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136546</ID>
+                  <Description>"Gold Trophy"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+23</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136547</ID>
+                  <Description>"Sorcerer's Ring - A"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+24</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136548</ID>
+                  <Description>"Sorcerer's Ring - W"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+25</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136549</ID>
+                  <Description>"Sorcerer's Ring - F2"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+26</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136550</ID>
+                  <Description>"Key of Darkness"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+27</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136551</ID>
+                  <Description>"Robot's Generator"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+28</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136552</ID>
+                  <Description>"Rem Capacitor"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+29</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136553</ID>
+                  <Description>"Light Fonstone"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136554</ID>
+                  <Description>"King's Portrait"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136555</ID>
+                  <Description>"Spa Membership"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136556</ID>
+                  <Description>"Shadow Fonstone"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+2D</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136558</ID>
+                  <Description>"Discs"</Description>
+                  <Options moHideChildren="1"/>
+                  <Color>00FFFF</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>136557</ID>
+                      <Description>"Prelude"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFFFF</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>+2E</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>136559</ID>
+                      <Description>"Purity"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFFFF</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>+2F</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>136560</ID>
+                      <Description>"Requiem"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFFFF</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>+30</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>136561</ID>
+                      <Description>"Noble Thief"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFFFF</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>+31</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>136562</ID>
+                      <Description>"Silver and White"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFFFF</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>+32</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>136563</ID>
+                      <Description>"Comedy"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFFFF</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>+33</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>136564</ID>
+                      <Description>"Finale"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FFFFFF</Color>
+                      <VariableType>Byte</VariableType>
+                      <Address>+34</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136565</ID>
+                  <Description>"Secret Box"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+36</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136566</ID>
+                  <Description>"Fanzine"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+37</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136567</ID>
+                  <Description>"Cecille's Sword"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+38</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136568</ID>
+                  <Description>"Frings' Letter"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+39</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136569</ID>
+                  <Description>"Memento Ring"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136570</ID>
+                  <Description>"Rugnican Death Cap"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3B</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136571</ID>
+                  <Description>"Ancient Scroll"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136572</ID>
+                  <Description>"Hod Citizen Registry"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3e</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136573</ID>
+                  <Description>"Arcana Albertis"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+3F</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136574</ID>
+                  <Description>"Holy Seal"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+40</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136575</ID>
+                  <Description>"Dark Seal"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+41</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136576</ID>
+                  <Description>"Gald Detector"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FFFFFF</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>+42</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
@@ -12359,7 +13836,7 @@ unregistersymbol(baseElfAddr)
             <CheatEntry>
               <ID>93088</ID>
               <Description>"121 for Tutti C. Core"</Description>
-              <Color>0000FF</Color>
+              <Color>FFFF00</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
             <CheatEntry>
@@ -28771,7 +30248,7 @@ unregistersymbol(skill_prop_ptr)
   <UserdefinedSymbols>
     <SymbolEntry>
       <Name>baseElfAddr</Name>
-      <Address>7FF71010008C</Address>
+      <Address>7FF68010008C</Address>
     </SymbolEntry>
   </UserdefinedSymbols>
   <DisassemblerComments>
