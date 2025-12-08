@@ -63,6 +63,8 @@ Override strategies of party members, (EX: strike artes tactic on members who do
 
 Add or remove all items in the game
 
+Can edit the stats of all weapons/armors/hands/most accessory items
+
 Can equip the same C. Core to multiple party members via equipment editor
 
 Change the difficulty value without actually having to earn Very hard/Unknown difficulty. (I don't know why you would want to do Unknown on your very first run through?)
@@ -83,6 +85,6 @@ Artes you would have earned via side quests are now part of the main level up po
 
 Luke/Guy/Natalia can now learn AD Skills relating to offensive Spell Artes.
 
-
+Modified stats for most equipment (Weapons/Armors/Hands/Accessories like hats, circlets,shoes,capes,helmets)
 
 **Up next:TBD**
