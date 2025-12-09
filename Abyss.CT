@@ -41,7 +41,7 @@ unregistersymbol(baseElfAddr)
       <CheatEntries>
         <CheatEntry>
           <ID>136373</ID>
-          <Description>"Keep pressing \ to activate modified stuff (like giving spell artes to Luke/Guy and changing some artes for the others)"</Description>
+          <Description>"Keep pressing \ to activate modified stuff"</Description>
           <Color>FFFF00</Color>
           <GroupHeader>1</GroupHeader>
         </CheatEntry>
@@ -16202,6 +16202,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>15</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136759</ID>
@@ -16209,6 +16219,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>30</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136760</ID>
@@ -16233,6 +16253,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>5</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136763</ID>
@@ -16264,6 +16294,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>30</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136767</ID>
@@ -16295,6 +16335,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>43</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136771</ID>
@@ -16336,6 +16386,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>55</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136775</ID>
@@ -16367,6 +16427,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>73</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136779</ID>
@@ -16398,6 +16468,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>80</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136783</ID>
@@ -16429,6 +16509,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>93</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136787</ID>
@@ -16460,6 +16550,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>133</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136791</ID>
@@ -16501,6 +16601,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>213</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136795</ID>
@@ -16532,6 +16642,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>170</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136799</ID>
@@ -16573,6 +16693,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>145</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136803</ID>
@@ -16614,6 +16744,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>238</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136807</ID>
@@ -16655,6 +16795,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>250</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136811</ID>
@@ -16696,6 +16846,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>308</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136815</ID>
@@ -16737,6 +16897,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>289</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136819</ID>
@@ -16778,6 +16948,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>295</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136823</ID>
@@ -16819,6 +16999,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>315</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136827</ID>
@@ -16860,6 +17050,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>125</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136831</ID>
@@ -16891,6 +17091,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>55</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136835</ID>
@@ -16932,6 +17142,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>125</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136839</ID>
@@ -16973,6 +17193,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>350</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136843</ID>
@@ -16980,6 +17210,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>700</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136844</ID>
@@ -17014,6 +17254,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>225</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136847</ID>
@@ -17045,6 +17295,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>300</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136851</ID>
@@ -17086,6 +17346,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>325</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136855</ID>
@@ -17093,6 +17363,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>650</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136856</ID>
@@ -17127,6 +17407,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>350</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136859</ID>
@@ -17168,6 +17458,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>10</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136863</ID>
@@ -17175,6 +17475,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>20</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136864</ID>
@@ -17209,6 +17519,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>10</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136867</ID>
@@ -17216,6 +17536,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>20</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136868</ID>
@@ -17250,6 +17580,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>325</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136871</ID>
@@ -17291,6 +17631,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>325</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136875</ID>
@@ -17298,6 +17648,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>650</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136876</ID>
@@ -17425,6 +17785,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>23</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136888</ID>
@@ -17456,6 +17826,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>51</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136892</ID>
@@ -17497,6 +17877,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>72</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136896</ID>
@@ -17528,6 +17918,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>94</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136900</ID>
@@ -17569,6 +17969,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>122</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136904</ID>
@@ -17600,6 +18010,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>136</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136908</ID>
@@ -17631,6 +18051,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>158</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136912</ID>
@@ -17662,6 +18092,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>179</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136916</ID>
@@ -17693,6 +18133,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>222</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136920</ID>
@@ -17724,6 +18174,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>264</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136924</ID>
@@ -17765,6 +18225,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>308</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136928</ID>
@@ -17796,6 +18266,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>357</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136932</ID>
@@ -17827,6 +18307,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>420</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136936</ID>
@@ -17868,6 +18358,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>399</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136940</ID>
@@ -17909,6 +18409,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>443</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136944</ID>
@@ -17950,6 +18460,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>484</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136948</ID>
@@ -17981,6 +18501,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>495</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136952</ID>
@@ -18022,6 +18552,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>525</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136956</ID>
@@ -18063,6 +18603,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>225</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136960</ID>
@@ -18094,6 +18644,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>188</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136964</ID>
@@ -18125,6 +18685,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>525</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136968</ID>
@@ -18156,6 +18726,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>450</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136972</ID>
@@ -18187,6 +18767,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>150</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136976</ID>
@@ -18194,6 +18784,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>200</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136977</ID>
@@ -18228,6 +18828,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>555</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136980</ID>
@@ -18235,6 +18845,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>740</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136981</ID>
@@ -18259,6 +18879,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>263</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136984</ID>
@@ -18266,6 +18896,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>350</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136985</ID>
@@ -18300,6 +18940,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>525</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136988</ID>
@@ -18307,6 +18957,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>700</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136989</ID>
@@ -18341,6 +19001,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>525</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136992</ID>
@@ -18372,6 +19042,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>638</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136996</ID>
@@ -18379,6 +19059,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>850</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136997</ID>
@@ -18413,6 +19103,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>15</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>137000</ID>
@@ -18420,6 +19120,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>20</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>137001</ID>
@@ -18454,6 +19164,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>15</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>137004</ID>
@@ -18461,6 +19181,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+2</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>20</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>137005</ID>
@@ -18496,6 +19226,16 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>2 Bytes</VariableType>
                       <Address>+0</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>540</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>137008</ID>
@@ -32183,7 +32923,7 @@ unregistersymbol(baseElfAddr)
                           <Keys>
                             <Key>220</Key>
                           </Keys>
-                          <Value>5</Value>
+                          <Value>1</Value>
                           <ID>0</ID>
                         </Hotkey>
                       </Hotkeys>
@@ -32820,7 +33560,7 @@ unregistersymbol(baseElfAddr)
                           <Keys>
                             <Key>220</Key>
                           </Keys>
-                          <Value>5</Value>
+                          <Value>2</Value>
                           <ID>0</ID>
                         </Hotkey>
                       </Hotkeys>
@@ -32864,7 +33604,7 @@ unregistersymbol(baseElfAddr)
                           <Keys>
                             <Key>220</Key>
                           </Keys>
-                          <Value>5</Value>
+                          <Value>4</Value>
                           <ID>0</ID>
                         </Hotkey>
                       </Hotkeys>
@@ -43768,7 +44508,7 @@ unregistersymbol(skill_prop_ptr)
   <UserdefinedSymbols>
     <SymbolEntry>
       <Name>baseElfAddr</Name>
-      <Address>7FF72010008C</Address>
+      <Address>7FF6A010008C</Address>
     </SymbolEntry>
   </UserdefinedSymbols>
   <DisassemblerComments>
