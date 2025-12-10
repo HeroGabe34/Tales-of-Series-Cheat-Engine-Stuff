@@ -57,7 +57,7 @@ Use this on the PCSX2 emulator, idk about any other platform or hardware.
 
 Based off of what Sora3100's table already had, plus a bit extra!
 
-Change the amount of gald you can have
+Change the amount of gald/casino chips you can have
 
 Override strategies of party members, (EX: strike artes tactic on members who don't usually have it.)
 
