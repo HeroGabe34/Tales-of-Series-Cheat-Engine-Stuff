@@ -166,6 +166,13 @@ unregistersymbol(baseElfAddr)
           <Address>baseElfAddr+5D2B84</Address>
         </CheatEntry>
         <CheatEntry>
+          <ID>137965</ID>
+          <Description>"Casino Chips"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>baseElfAddr+a9e6f0</Address>
+        </CheatEntry>
+        <CheatEntry>
           <ID>109</ID>
           <Description>"Stats"</Description>
           <Options moHideChildren="1"/>
@@ -33679,16 +33686,6 @@ unregistersymbol(baseElfAddr)
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Byte</VariableType>
                       <Address>arteProps+faa</Address>
-                      <Hotkeys>
-                        <Hotkey>
-                          <Action>Set Value</Action>
-                          <Keys>
-                            <Key>220</Key>
-                          </Keys>
-                          <Value>5</Value>
-                          <ID>0</ID>
-                        </Hotkey>
-                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>136358</ID>
