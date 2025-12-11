@@ -39,7 +39,7 @@ Very fast spell casting
 
 Most artes have different elements/attack attributes added/removed (Ex: Lilith's Raindow Arch Arte now has every element in its attribute instead of just aqua)
 
-Weapon edits
+Swordian ability and final Weapon ability edits for non-swordian party members. 
 
 Swordian devices at 999 points
 
