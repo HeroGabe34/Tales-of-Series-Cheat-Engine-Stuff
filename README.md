@@ -79,11 +79,13 @@ Pressing \ modifies the game, making it different from a vanilla play through.
 
 All artes cost 1 TP
 
-Luke/Guy/Natalia/Anise got modified artes. Replaced artes that didn't have a FOF arte with Spell Artes. Luke/Asch/Guy/Anise/Natalia got new Spell Artes, some got new healing artes as well. Tear and Jade didn't get any new arte changes. These new Spell Artes DO NOT have a FOF version
+Luke/Asch/Guy/Natalia/Anise got modified artes. Replaced artes that didn't have a FOF arte with Spell Artes, some got new healing artes as well. Tear and Jade didn't get any new arte changes. These new Spell Artes DO NOT have a FOF version
 
 Most artes have different elemental attributes than what they had orignally. (EX: Havoc Strike is an Earth Arte now)
 
-Artes you would have earned via side quests are now part of the main level up pool.
+Everyones FSC abilities have been altered.
+
+Artes you would have earned via side quests are now part of the main level up pool. You can still earn the side quests artes normally.
 
 Luke/Guy/Natalia can now learn AD Skills relating to offensive Spell Artes.
 
