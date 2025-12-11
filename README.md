@@ -63,11 +63,13 @@ Override strategies of party members, (EX: strike artes tactic on members who do
 
 Add or remove all items in the game
 
+Can edit FSC abilities (EX:Add the Steal effect on artes that don't have it)
+
 Can edit the stats of all weapons/armors/hands/most accessory items
 
 Can equip the same C. Core to multiple party members via equipment editor
 
-Change the difficulty value without actually having to earn Very hard/Unknown difficulty. (I don't know why you would want to do Unknown on your very first run through?)
+Change the difficulty value without actually having to earn Very hard/Unknown difficulty.
 
 Edit grade and grade shop options (only available after you beat the game at least once and can only access it in the grade shop menu)
 
@@ -77,11 +79,11 @@ Pressing \ modifies the game, making it different from a vanilla play through.
 
 All artes cost 1 TP
 
-Luke/Guy/Natalia/Anise got modified artes. Replaced artes that didn't have a FOF arte with Spell Artes. Luke/Asch/Guy got a bunch of Spell Artes added in their arte list. Anise I added 3 more Spell artes for her, and Natalia I gave 2 more Spell Artes. (Wasn't able to add healing artes to anyone so Tear and Natalia are still the only healers in the game)
+Luke/Guy/Natalia/Anise got modified artes. Replaced artes that didn't have a FOF arte with Spell Artes. Luke/Asch/Guy/Anise/Natalia got new Spell Artes, some got new healing artes as well. Tear and Jade didn't get any new arte changes. These new Spell Artes DO NOT have a FOF version
 
-Most artes have different elemental attributes than what they had orignally. (EX: Demon fist is now a dark elemental arte)
+Most artes have different elemental attributes than what they had orignally. (EX: Havoc Strike is an Earth Arte now)
 
-Artes you would have earned via side quests are now part of the main level up pool, (EX: Luke/Asch can learn demon fist at level 3.) You can still learn them via side quests.
+Artes you would have earned via side quests are now part of the main level up pool.
 
 Luke/Guy/Natalia can now learn AD Skills relating to offensive Spell Artes.
 
