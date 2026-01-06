@@ -91,4 +91,4 @@ Luke/Guy/Natalia can now learn AD Skills relating to offensive Spell Artes.
 
 Modified stats for most equipment (Weapons/Armors/Hands/Accessories like hats, circlets,shoes,capes,helmets)
 
-**Up next:TBD**
+**Up next:Tales of Symphonia**
