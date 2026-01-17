@@ -119,9 +119,9 @@ Change gald amount
 
 EXP, Gald, Grade Multipliers
 
-Chain same arte types (Chain Demon fang with Double Demon Fang)
+Chain same arte types (EX:Chain Demon fang with Double Demon Fang)
 
-Allow multiple uses of Mystic Artes and ignore overlimit requirements (Kratos can use his mystic arte during overlimit without having flamberge equipped)
+Allow multiple uses of Mystic Artes and ignore overlimit requirements (EX:Kratos can use his mystic arte during overlimit without having flamberge equipped)
 
 Change character tech alignment (S/T scale)
 
@@ -150,7 +150,7 @@ Can turn on the JPN skit voices when playing with English dub
 **Modified Items I did**
 
 Change the Strategies of party members
-(Give Lloyd the L-Range Magic Position or giving Colette the Heal command for TP usage)
+(EX:Give Lloyd the L-Range Magic Position or giving Colette the Heal command for TP usage)
 
 All TP usage is 1
 
@@ -161,7 +161,7 @@ Player controlled and AI party members can combo artes IN ANY ORDER AND FOR AS L
 (As a heads up, comboing for a long duration will let your damage become REALLY low and the enemy will eventually get downed to get out of it, they won't be able to get comboed again for a little bit.)
 (Presea can somewhat combo but some of her artes don't really allow her to keep chaining artes)
 
-Every party member can learn ALL OF THEIR ARTES REGARDLESS OF THEIR TECH ALIGNMENT (S/T Scale) AND ARTE USAGE. EX:Lloyd can learn Double Demon Fang AND Fierce Demon Fang at the same time now and without having Demon Fang used 50 times
+Every party member can learn ALL OF THEIR ARTES REGARDLESS OF THEIR TECH ALIGNMENT (S/T Scale) AND ARTE USAGE. (EX:Lloyd can learn Double Demon Fang AND Fierce Demon Fang at the same time now and without having Demon Fang used 50 times)
 
 Every party members artes has an elemental affinty on it EX:Lloyd's Demon Fang is now a Fire Arte.
 
