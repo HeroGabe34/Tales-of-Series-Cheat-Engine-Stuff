@@ -764,6 +764,30 @@ TOS.exe+B7443: 89 54 24 18           - mov [esp+18],edx
               <Color>FFFF00</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
+            <CheatEntry>
+              <ID>11513</ID>
+              <Description>"Plus they will use it not even close to the enemy if the mystic arte is a physical one"</Description>
+              <Color>FFFF00</Color>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>11514</ID>
+              <Description>"So if you want to use them, just wait until they go in overlimit, control them and use the mystic arte that way"</Description>
+              <Color>FFFF00</Color>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>11511</ID>
+              <Description>"DONT let the AI have the Healing Spell Arte Revive set as on for them, they treat it as an actual healing arte"</Description>
+              <Color>FFFF00</Color>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>11512</ID>
+              <Description>"Rather than a support arte so just turn it off and manually tell them to use it"</Description>
+              <Color>FFFF00</Color>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
