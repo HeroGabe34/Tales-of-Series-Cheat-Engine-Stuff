@@ -161,13 +161,15 @@ Player controlled and AI party members can combo artes IN ANY ORDER AND FOR AS L
 (As a heads up, comboing for a long duration will let your damage become REALLY low and the enemy will eventually get downed to get out of it, they won't be able to get comboed again for a little bit.)
 (Presea can somewhat combo but some of her artes don't really allow her to keep chaining artes)
 
-Every party member can learn ALL OF THEIR ARTES REGARDLESS OF THEIR TECH ALIGNMENT (S/T Scale) AND ARTE USAGE. (EX:Lloyd can learn Double Demon Fang AND Fierce Demon Fang at the same time now and without having Demon Fang used 50 times)
+Every party member can learn ALL OF THEIR ARTES REGARDLESS OF THEIR TECH ALIGNMENT (S/T Scale) AND ARTE USAGE.
+(EX:Lloyd can learn Double Demon Fang AND Fierce Demon Fang at the same time now and without having Demon Fang used 50 times)
 
 Every party members artes has an elemental affinty on it EX:Lloyd's Demon Fang is now a Fire Arte.
 
 Modified every party members artes they learned, play the game to find out whats new for each member!
 (Removed all of Lloyd's combination artes, Tempest Thrust, Raining Tiger Blade, etc... due to those artes unable to chain with other artes.)
 
-Edited the text of artes that had no name nor no description to them (Thank you sdaily01 for the help on that!)
+Edited the text of artes that had no name or no description to them
+(Thank you sdaily01 for the help on that!)
 
 **Up Next:TBD**
