@@ -714,6 +714,15 @@ TOS.exe+B7441: F7 F1                 - div ecx
 TOS.exe+B7443: 89 54 24 18           - mov [esp+18],edx
 }
 </AssemblerScript>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Activate</Action>
+          <Keys>
+            <Key>220</Key>
+          </Keys>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
       <CheatEntries>
         <CheatEntry>
           <ID>10721</ID>
@@ -763,28 +772,30 @@ TOS.exe+B7443: 89 54 24 18           - mov [esp+18],edx
               <Description>"Once you learn Mystic Artes, turn them off for the AI members since they will actually use them when not in overlimit"</Description>
               <Color>FFFF00</Color>
               <GroupHeader>1</GroupHeader>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>11513</ID>
-              <Description>"Plus they will use it not even close to the enemy if the mystic arte is a physical one"</Description>
-              <Color>FFFF00</Color>
-              <GroupHeader>1</GroupHeader>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>11514</ID>
-              <Description>"So if you want to use them, just wait until they go in overlimit, control them and use the mystic arte that way"</Description>
-              <Color>FFFF00</Color>
-              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>11513</ID>
+                  <Description>"Plus they will use it not even close to the enemy if the mystic arte is a physical one"</Description>
+                  <Color>FFFF00</Color>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>11514</ID>
+                  <Description>"So if you want to use them, just wait until they go in overlimit, control them and use the mystic arte that way"</Description>
+                  <Color>FFFF00</Color>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+              </CheatEntries>
             </CheatEntry>
             <CheatEntry>
               <ID>11511</ID>
-              <Description>"DONT let the AI have the Healing Spell Arte Revive set as on for them, they treat it as an actual healing arte"</Description>
+              <Description>"DONT let the AI have the Healing Spell Arte Revive set as on for them, they treat it as an actual healing arte, so just turn it off and manually tell them to use it"</Description>
               <Color>FFFF00</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
             <CheatEntry>
-              <ID>11512</ID>
-              <Description>"Rather than a support arte so just turn it off and manually tell them to use it"</Description>
+              <ID>11530</ID>
+              <Description>"AI Sheena's Offensive Spell Artes won't work, she will only use her physical artes, as of now I have no clue why she does that"</Description>
               <Color>FFFF00</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
@@ -836,6 +847,34 @@ TOS.exe+B7443: 89 54 24 18           - mov [esp+18],edx
                   <Description>"Do not add Sheena until AFTER she joins the party normally. Otherwise the game will crash at some point in the story"</Description>
                   <Color>FFFF00</Color>
                   <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>11532</ID>
+                  <Description>"During the Kvar ranch, DONT add back the members that split up to the active party, otherwise you will softlock your game"</Description>
+                  <Color>FFFF00</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>11533</ID>
+                      <Description>"Other members should be fine to add"</Description>
+                      <Color>FFFF00</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>11517</ID>
+                  <Description>"If you want to bring Kratos along throughout the entire game, make sure you replace the character that isnt required for upcoming story scenes or side quests"</Description>
+                  <Color>FFFF00</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>11531</ID>
+                      <Description>"Just get ready to swap people often because of story most of the time"</Description>
+                      <Color>FFFF00</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                  </CheatEntries>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
@@ -1911,7 +1950,7 @@ TOS.exe+B7443: 89 54 24 18           - mov [esp+18],edx
                   <ID>5100</ID>
                   <Description>"Exp"</Description>
                   <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>2 Bytes</VariableType>
+                  <VariableType>4 Bytes</VariableType>
                   <Address>"TOS.exe"+005281D4</Address>
                   <Offsets>
                     <Offset>C50</Offset>
@@ -4007,6 +4046,14 @@ unregistersymbol(GaldMult)
               <Description>"Gald Multiplier"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>GaldMult</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>11515</ID>
+                  <Description>"Raise it too high like 100x, the game will break"</Description>
+                  <Color>FFFF00</Color>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+              </CheatEntries>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
@@ -4065,6 +4112,14 @@ unregistersymbol(GradeMult)
               <Description>"Grade Multiplier"</Description>
               <VariableType>4 Bytes</VariableType>
               <Address>GradeMult</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>11516</ID>
+                  <Description>"Raise it too high like 100x, the game will break"</Description>
+                  <Color>FFFF00</Color>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+              </CheatEntries>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
@@ -4239,6 +4294,63 @@ dealloc(AoBstorage)
               <ID>0</ID>
             </Hotkey>
           </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1582</ID>
+          <Description>"Rheiards always usable"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{ Game   : TOS.exe
+  Version: 
+  Date   : 2023-06-24
+  Author : thing
+
+  This script does blah blah blah
+}
+
+[ENABLE]
+
+aobscanmodule(rheiardCheck,TOS.exe,80 B8 97 0F 00 00 00 0F) // should be unique
+
+rheiardCheck:
+  db EB 1D 90 90 90 90 90
+
+registersymbol(rheiardCheck)
+
+[DISABLE]
+
+rheiardCheck:
+  db 80 B8 97 0F 00 00 00
+
+unregistersymbol(rheiardCheck)
+
+{
+// ORIGINAL CODE - INJECTION POINT: 004B9A99
+
+004B9A6B: A8 10                 - test al,10
+004B9A6D: 0F 85 BA 02 00 00     - jne 004B9D2D
+004B9A73: 8B 44 24 10           - mov eax,[esp+10]
+004B9A77: A9 00 00 00 08        - test eax,08000000
+004B9A7C: 75 16                 - jne 004B9A94
+004B9A7E: A9 00 00 00 FC        - test eax,FC000000
+004B9A83: 0F 85 71 01 00 00     - jne 004B9BFA
+004B9A89: A9 00 20 00 08        - test eax,08002000
+004B9A8E: 0F 84 66 01 00 00     - je 004B9BFA
+004B9A94: A1 68 3F AD 00        - mov eax,[00AD3F68]
+// ---------- INJECTING HERE ----------
+004B9A99: 80 B8 97 0F 00 00 00  - cmp byte ptr [eax+00000F97],00
+// ---------- DONE INJECTING  ----------
+004B9AA0: 0F 84 9A 00 00 00     - je 004B9B40
+004B9AA6: B8 16 00 00 00        - mov eax,00000016
+004B9AAB: E8 50 93 00 00        - call 004C2E00
+004B9AB0: 85 C0                 - test eax,eax
+004B9AB2: 0F 84 88 00 00 00     - je 004B9B40
+004B9AB8: 80 BF 07 F9 09 00 00  - cmp byte ptr [edi+0009F907],00
+004B9ABF: 0F 85 20 06 00 00     - jne 004BA0E5
+004B9AC5: 80 BF 08 F9 09 00 00  - cmp byte ptr [edi+0009F908],00
+004B9ACC: 0F 85 28 01 00 00     - jne 004B9BFA
+004B9AD2: 83 8F FC F8 09 00 08  - or dword ptr [edi+0009F8FC],08
+}
+</AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>229</ID>
@@ -10801,7 +10913,7 @@ dealloc(AoBstorage)
                           <Keys>
                             <Key>220</Key>
                           </Keys>
-                          <Value>1</Value>
+                          <Value>0</Value>
                           <ID>0</ID>
                         </Hotkey>
                       </Hotkeys>
@@ -56131,6 +56243,164 @@ dealloc(AoBstorage)
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
+                <CheatEntry>
+                  <ID>11518</ID>
+                  <Description>"Summon Corrine (Mystic Arte)"</Description>
+                  <Options moHideChildren="1"/>
+                  <Color>00FF00</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>11519</ID>
+                      <Description>"TP Cost"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>008DB8D8</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11520</ID>
+                      <Description>"Element"</Description>
+                      <DropDownList DisplayValueAsItem="1">0:None
+1:Water
+2:Wind
+3:Fire
+4:Earth
+5:Lightning
+6:Ice
+7:Light
+8:Dark
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>008DB8E5</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11521</ID>
+                      <Description>"Ability to spam"</Description>
+                      <DropDownListLink>dropdown: Enabled/Disabled</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>2</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>008DB908</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11522</ID>
+                      <Description>"Aerial enabled?"</Description>
+                      <DropDownListLink>dropdown: Disabled/Enabled</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>6</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>008DB908</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11523</ID>
+                      <Description>"Level 1 Tech"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>1</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>008DB908</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11524</ID>
+                      <Description>"Level 2 Tech"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>008DB908</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11525</ID>
+                      <Description>"Level 3 Tech"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>1</BitLength>
+                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>008DB908</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>0</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11526</ID>
+                      <Description>"Cast Time"</Description>
+                      <ShowAsSigned>1</ShowAsSigned>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>008DB90C</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>10</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11527</ID>
+                      <Description>"Spell recovery"</Description>
+                      <ShowAsSigned>1</ShowAsSigned>
+                      <VariableType>2 Bytes</VariableType>
+                      <Address>008DB90E</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>220</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11528</ID>
+                      <Description>"Level to learn"</Description>
+                      <DropDownList DisplayValueAsItem="1">0:Disabled
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>008DB912</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
@@ -74122,6 +74392,21 @@ TOS.exe+120E61: 85 C0                 - test eax,eax
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
+                      <ID>4760</ID>
+                      <Description>"Lamellar Leather"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>"TOS.exe"+005281D4</Address>
+                      <Offsets>
+                        <Offset>113A</Offset>
+                        <Offset>4</Offset>
+                        <Offset>1EC</Offset>
+                        <Offset>294</Offset>
+                        <Offset>78</Offset>
+                        <Offset>114</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>4716</ID>
                       <Description>"Splint Mail"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -74530,6 +74815,21 @@ TOS.exe+120E61: 85 C0                 - test eax,eax
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
+                      <ID>4763</ID>
+                      <Description>"Mage Cloak (Genis)"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>"TOS.exe"+005281D4</Address>
+                      <Offsets>
+                        <Offset>113D</Offset>
+                        <Offset>4</Offset>
+                        <Offset>1EC</Offset>
+                        <Offset>294</Offset>
+                        <Offset>78</Offset>
+                        <Offset>114</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>4742</ID>
                       <Description>"Silk Cloak"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -74674,6 +74974,51 @@ TOS.exe+120E61: 85 C0                 - test eax,eax
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
+                      <ID>4767</ID>
+                      <Description>"White Robe (Raine)"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>"TOS.exe"+005281D4</Address>
+                      <Offsets>
+                        <Offset>1141</Offset>
+                        <Offset>4</Offset>
+                        <Offset>1EC</Offset>
+                        <Offset>294</Offset>
+                        <Offset>78</Offset>
+                        <Offset>114</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>4768</ID>
+                      <Description>"Yayoi (Sheena)"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>"TOS.exe"+005281D4</Address>
+                      <Offsets>
+                        <Offset>1142</Offset>
+                        <Offset>4</Offset>
+                        <Offset>1EC</Offset>
+                        <Offset>294</Offset>
+                        <Offset>78</Offset>
+                        <Offset>114</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>4774</ID>
+                      <Description>"Moon Robe (Raine)"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>"TOS.exe"+005281D4</Address>
+                      <Offsets>
+                        <Offset>1155</Offset>
+                        <Offset>4</Offset>
+                        <Offset>1EC</Offset>
+                        <Offset>294</Offset>
+                        <Offset>78</Offset>
+                        <Offset>114</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>4751</ID>
                       <Description>"Misty Robe"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -74796,21 +75141,6 @@ TOS.exe+120E61: 85 C0                 - test eax,eax
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>4760</ID>
-                  <Description>"Lamellar Leather"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Byte</VariableType>
-                  <Address>"TOS.exe"+005281D4</Address>
-                  <Offsets>
-                    <Offset>113A</Offset>
-                    <Offset>4</Offset>
-                    <Offset>1EC</Offset>
-                    <Offset>294</Offset>
-                    <Offset>78</Offset>
-                    <Offset>114</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
                   <ID>4761</ID>
                   <Description>"Silver Guard"</Description>
                   <ShowAsSigned>0</ShowAsSigned>
@@ -74833,21 +75163,6 @@ TOS.exe+120E61: 85 C0                 - test eax,eax
                   <Address>"TOS.exe"+005281D4</Address>
                   <Offsets>
                     <Offset>113C</Offset>
-                    <Offset>4</Offset>
-                    <Offset>1EC</Offset>
-                    <Offset>294</Offset>
-                    <Offset>78</Offset>
-                    <Offset>114</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>4763</ID>
-                  <Description>"Mage Cloak"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Byte</VariableType>
-                  <Address>"TOS.exe"+005281D4</Address>
-                  <Offsets>
-                    <Offset>113D</Offset>
                     <Offset>4</Offset>
                     <Offset>1EC</Offset>
                     <Offset>294</Offset>
@@ -74893,36 +75208,6 @@ TOS.exe+120E61: 85 C0                 - test eax,eax
                   <Address>"TOS.exe"+005281D4</Address>
                   <Offsets>
                     <Offset>1140</Offset>
-                    <Offset>4</Offset>
-                    <Offset>1EC</Offset>
-                    <Offset>294</Offset>
-                    <Offset>78</Offset>
-                    <Offset>114</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>4767</ID>
-                  <Description>"White Robe"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Byte</VariableType>
-                  <Address>"TOS.exe"+005281D4</Address>
-                  <Offsets>
-                    <Offset>1141</Offset>
-                    <Offset>4</Offset>
-                    <Offset>1EC</Offset>
-                    <Offset>294</Offset>
-                    <Offset>78</Offset>
-                    <Offset>114</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>4768</ID>
-                  <Description>"Yayoi"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Byte</VariableType>
-                  <Address>"TOS.exe"+005281D4</Address>
-                  <Offsets>
-                    <Offset>1142</Offset>
                     <Offset>4</Offset>
                     <Offset>1EC</Offset>
                     <Offset>294</Offset>
@@ -74998,21 +75283,6 @@ TOS.exe+120E61: 85 C0                 - test eax,eax
                   <Address>"TOS.exe"+005281D4</Address>
                   <Offsets>
                     <Offset>1154</Offset>
-                    <Offset>4</Offset>
-                    <Offset>1EC</Offset>
-                    <Offset>294</Offset>
-                    <Offset>78</Offset>
-                    <Offset>114</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>4774</ID>
-                  <Description>"Moon Robe"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>Byte</VariableType>
-                  <Address>"TOS.exe"+005281D4</Address>
-                  <Offsets>
-                    <Offset>1155</Offset>
                     <Offset>4</Offset>
                     <Offset>1EC</Offset>
                     <Offset>294</Offset>
@@ -76224,6 +76494,21 @@ TOS.exe+120E61: 85 C0                 - test eax,eax
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
+                      <ID>4853</ID>
+                      <Description>"Paralysis Charm"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>"TOS.exe"+005281D4</Address>
+                      <Offsets>
+                        <Offset>10F8</Offset>
+                        <Offset>4</Offset>
+                        <Offset>1EC</Offset>
+                        <Offset>294</Offset>
+                        <Offset>78</Offset>
+                        <Offset>114</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>4851</ID>
                       <Description>"Drain Charm"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -76246,21 +76531,6 @@ TOS.exe+120E61: 85 C0                 - test eax,eax
                       <Address>"TOS.exe"+005281D4</Address>
                       <Offsets>
                         <Offset>10F7</Offset>
-                        <Offset>4</Offset>
-                        <Offset>1EC</Offset>
-                        <Offset>294</Offset>
-                        <Offset>78</Offset>
-                        <Offset>114</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>4853</ID>
-                      <Description>"Paralysis Charm"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Byte</VariableType>
-                      <Address>"TOS.exe"+005281D4</Address>
-                      <Offsets>
-                        <Offset>10F8</Offset>
                         <Offset>4</Offset>
                         <Offset>1EC</Offset>
                         <Offset>294</Offset>
@@ -79640,7 +79910,7 @@ TOS.exe+CCF53: D9 46 28           - fld dword ptr [esi+28]
           <CheatEntries>
             <CheatEntry>
               <ID>1430</ID>
-              <Description>"Does not affect the overworld, also keep it at 4 or less, otherwise you wont be able to push stuff"</Description>
+              <Description>"Does not affect the overworld, also keep it at 4 or less, otherwise you wont be able to push/pull stuff"</Description>
               <Color>0000FF</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
@@ -79652,63 +79922,6 @@ TOS.exe+CCF53: D9 46 28           - fld dword ptr [esi+28]
               <Address>runSpeedMem+100</Address>
             </CheatEntry>
           </CheatEntries>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>1582</ID>
-          <Description>"Rheiards always usable"</Description>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>{ Game   : TOS.exe
-  Version: 
-  Date   : 2023-06-24
-  Author : thing
-
-  This script does blah blah blah
-}
-
-[ENABLE]
-
-aobscanmodule(rheiardCheck,TOS.exe,80 B8 97 0F 00 00 00 0F) // should be unique
-
-rheiardCheck:
-  db EB 1D 90 90 90 90 90
-
-registersymbol(rheiardCheck)
-
-[DISABLE]
-
-rheiardCheck:
-  db 80 B8 97 0F 00 00 00
-
-unregistersymbol(rheiardCheck)
-
-{
-// ORIGINAL CODE - INJECTION POINT: 004B9A99
-
-004B9A6B: A8 10                 - test al,10
-004B9A6D: 0F 85 BA 02 00 00     - jne 004B9D2D
-004B9A73: 8B 44 24 10           - mov eax,[esp+10]
-004B9A77: A9 00 00 00 08        - test eax,08000000
-004B9A7C: 75 16                 - jne 004B9A94
-004B9A7E: A9 00 00 00 FC        - test eax,FC000000
-004B9A83: 0F 85 71 01 00 00     - jne 004B9BFA
-004B9A89: A9 00 20 00 08        - test eax,08002000
-004B9A8E: 0F 84 66 01 00 00     - je 004B9BFA
-004B9A94: A1 68 3F AD 00        - mov eax,[00AD3F68]
-// ---------- INJECTING HERE ----------
-004B9A99: 80 B8 97 0F 00 00 00  - cmp byte ptr [eax+00000F97],00
-// ---------- DONE INJECTING  ----------
-004B9AA0: 0F 84 9A 00 00 00     - je 004B9B40
-004B9AA6: B8 16 00 00 00        - mov eax,00000016
-004B9AAB: E8 50 93 00 00        - call 004C2E00
-004B9AB0: 85 C0                 - test eax,eax
-004B9AB2: 0F 84 88 00 00 00     - je 004B9B40
-004B9AB8: 80 BF 07 F9 09 00 00  - cmp byte ptr [edi+0009F907],00
-004B9ABF: 0F 85 20 06 00 00     - jne 004BA0E5
-004B9AC5: 80 BF 08 F9 09 00 00  - cmp byte ptr [edi+0009F908],00
-004B9ACC: 0F 85 28 01 00 00     - jne 004B9BFA
-004B9AD2: 83 8F FC F8 09 00 08  - or dword ptr [edi+0009F8FC],08
-}
-</AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>26</ID>
@@ -79999,6 +80212,100 @@ unregistersymbol(rheiardCheck)
                     </CheatEntry>
                     <CheatEntry>
                       <ID>67</ID>
+                      <Description>"Slot 4"</Description>
+                      <DropDownListLink>dropdown: EX Skills</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>+3</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>162</ID>
+              <Description>"Kratos"</Description>
+              <Options moHideChildren="1"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <GroupHeader>1</GroupHeader>
+              <Address>+118*8</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>163</ID>
+                  <Description>"Jewels"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address>+0</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>164</ID>
+                      <Description>"Slot 1"</Description>
+                      <DropDownListLink>dropdown: Jewels</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>165</ID>
+                      <Description>"Slot 2"</Description>
+                      <DropDownListLink>dropdown: Jewels</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>+1</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>166</ID>
+                      <Description>"Slot 3"</Description>
+                      <DropDownListLink>dropdown: Jewels</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>+2</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>167</ID>
+                      <Description>"Slot 4"</Description>
+                      <DropDownListLink>dropdown: Jewels</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>+3</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>168</ID>
+                  <Description>"Skills"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address>+4</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>169</ID>
+                      <Description>"Slot 1"</Description>
+                      <DropDownListLink>dropdown: EX Skills</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>+0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>170</ID>
+                      <Description>"Slot 2"</Description>
+                      <DropDownListLink>dropdown: EX Skills</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>+1</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>171</ID>
+                      <Description>"Slot 3"</Description>
+                      <DropDownListLink>dropdown: EX Skills</DropDownListLink>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Byte</VariableType>
+                      <Address>+2</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>172</ID>
                       <Description>"Slot 4"</Description>
                       <DropDownListLink>dropdown: EX Skills</DropDownListLink>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -80469,100 +80776,6 @@ unregistersymbol(rheiardCheck)
                     </CheatEntry>
                     <CheatEntry>
                       <ID>89</ID>
-                      <Description>"Slot 4"</Description>
-                      <DropDownListLink>dropdown: EX Skills</DropDownListLink>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Byte</VariableType>
-                      <Address>+3</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>162</ID>
-              <Description>"Kratos"</Description>
-              <Options moHideChildren="1"/>
-              <ShowAsSigned>0</ShowAsSigned>
-              <GroupHeader>1</GroupHeader>
-              <Address>+118*8</Address>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>163</ID>
-                  <Description>"Jewels"</Description>
-                  <Options moHideChildren="1"/>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <GroupHeader>1</GroupHeader>
-                  <Address>+0</Address>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>164</ID>
-                      <Description>"Slot 1"</Description>
-                      <DropDownListLink>dropdown: Jewels</DropDownListLink>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Byte</VariableType>
-                      <Address>+0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>165</ID>
-                      <Description>"Slot 2"</Description>
-                      <DropDownListLink>dropdown: Jewels</DropDownListLink>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Byte</VariableType>
-                      <Address>+1</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>166</ID>
-                      <Description>"Slot 3"</Description>
-                      <DropDownListLink>dropdown: Jewels</DropDownListLink>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Byte</VariableType>
-                      <Address>+2</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>167</ID>
-                      <Description>"Slot 4"</Description>
-                      <DropDownListLink>dropdown: Jewels</DropDownListLink>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Byte</VariableType>
-                      <Address>+3</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>168</ID>
-                  <Description>"Skills"</Description>
-                  <Options moHideChildren="1"/>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <GroupHeader>1</GroupHeader>
-                  <Address>+4</Address>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>169</ID>
-                      <Description>"Slot 1"</Description>
-                      <DropDownListLink>dropdown: EX Skills</DropDownListLink>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Byte</VariableType>
-                      <Address>+0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>170</ID>
-                      <Description>"Slot 2"</Description>
-                      <DropDownListLink>dropdown: EX Skills</DropDownListLink>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Byte</VariableType>
-                      <Address>+1</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>171</ID>
-                      <Description>"Slot 3"</Description>
-                      <DropDownListLink>dropdown: EX Skills</DropDownListLink>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Byte</VariableType>
-                      <Address>+2</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>172</ID>
                       <Description>"Slot 4"</Description>
                       <DropDownListLink>dropdown: EX Skills</DropDownListLink>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -85767,6 +85980,14 @@ unregistersymbol(GaldPtr)
                       <Offsets>
                         <Offset>7D9</Offset>
                       </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>11529</ID>
+                          <Description>"1=Fancy, 2=Ninja, 4=Swimsuit, 5=Cool, 6=Judith (Tales of Vesperia)"</Description>
+                          <Color>FFFF00</Color>
+                          <GroupHeader>1</GroupHeader>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>3213</ID>
