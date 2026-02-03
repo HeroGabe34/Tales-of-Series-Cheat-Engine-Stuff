@@ -172,4 +172,6 @@ Modified every party members artes they learned, play the game to find out whats
 Edited the text of artes that had no name or no description to them
 (Thank you sdaily01 for the help on that!)
 
+ISSUE: Setting Sheena on auto WILL NOT let her use her new spell arte, I have no clue why the AI won't let her use it :(
+
 **Up Next:TBD**
